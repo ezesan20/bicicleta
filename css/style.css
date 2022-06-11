@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background: rgb(28, 22, 22);
+    color: white;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    
+
+}
+
+/* nav */
+
+.nav-main{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 35px 30px ;
+    
+    background-color: rgb(0, 0, 0);
+    
+}
+ .logo_bici{
+     width: 70px;
+     margin-left: 30px;
+     border-radius: 50px;
+     
+ }
+
+ .nav-main ul{
+     display: flex;
+     
+     
+ }
+
+ .nav-main ul li{
+     padding: 10px;
+ }
+
+ .nav-main ul li a:hover{
+     color: cornflowerblue;
+     border-bottom:  2px solid  cornflowerblue;
+
+ }
+ 
+ .nav-main ul.nav-menu{
+      flex: 1;
+     margin-left: 20px;
+
+ }
+
+ .nav-main ul.search{
+     margin-right: 20px;
+ }
+
+ .bicis{
+     width:80%;
+     margin:auto;
+    
+     
+     
+
+ }
+
+ .lista-bicis{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height:100px ;
+   background-color: rgb(43, 42, 42);
+   width: 100%;
+   margin: 10px;
+  
+   
+   
+   
+   
+ }
+ 
+ 
+
+ 
+ 
+ .lista-bicis li img {
+     width: 150px;
+     margin-top: 20px;
+     
+     
+    
+     
+
+
+ }
+ 
+ .lista-bicis li img:hover {
+   border-bottom: 2px solid cornflowerblue;
+
+}
+
+.bikee{
+    width: 100%;
+    height: 500px;
+    opacity: 80%;
+    margin-top: 50px;
+    background: url("../img/fondo-bici.jpg") ;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    font-size: 20px;
+    
+   
+    
+}
+
+.boton{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: rgb(67, 63, 63);
+    font-size: 15px;
+    border: solid 1px white;
+
+}
+
+.informacion{
+    margin-top: 100px;
+    width: 50px;
+}
