@@ -136,6 +136,11 @@ ul{
     
 }
 
+.bikee p{
+    color: rgb(255, 255, 255);
+    
+}
+
 .boton{
     cursor: pointer;
     font-size: 20px;
@@ -149,7 +154,141 @@ ul{
 
 }
 
-.informacion{
-    margin-top: 100px;
-    width: 50px;
+.restauracion{
+    background: rgb(43, 42, 42);
+    display: grid;
+    grid-template-columns: 50% 50%;
+
 }
+
+.restauracion h2 {
+    padding: 50px 100px 20px;
+    font-size: 40px;
+    white-space: pre-line;
+    
+    
+}
+
+.informacion p{
+    margin-left: 100px;
+    white-space: pre-line;
+}
+
+.restauracion img{
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.final{
+    display: grid;
+    grid-template-columns: 50% 50% 50%;
+    width: 100%;
+    background: black ;
+    height: 170px;
+    
+}
+
+.redes {
+    font-size: 20px ;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.linkss{
+    display: flex;
+    margin-top: 20px;
+    justify-content: left;
+    align-items: center;
+    
+
+}
+
+.linkss a{
+    margin: 0 10px;
+   
+}
+
+.legal{
+     display:grid;
+     grid-template-columns: 50% ;
+     white-space: pre-line;
+     margin-left: 200px;
+   
+   
+    
+}
+
+.legal h2{
+    margin-top: 10px;
+}
+
+body{
+    background: rgb(28, 22, 22);
+    color: white;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    
+
+}
+
+/* nav */
+
+.nav-main{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 35px 30px ;
+    
+    background-color: rgb(0, 0, 0);
+    
+}
+ .logo_bici{
+     width: 70px;
+     margin-left: 30px;
+     border-radius: 50px;
+     
+ }
+
+ .nav-main ul{
+     display: flex;
+     
+     
+ }
+
+ .nav-main ul li{
+     padding: 10px;
+ }
+
+ .nav-main ul li a:hover{
+     color: cornflowerblue;
+     border-bottom:  2px solid  cornflowerblue;
+
+ }
+ 
+ .nav-main ul.nav-menu{
+      flex: 1;
+     margin-left: 20px;
+
+ }
+
+ .nav-main ul.search{
+     margin-right: 20px;
+ }
