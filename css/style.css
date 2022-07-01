@@ -4,9 +4,7 @@
     padding: 0;
 }
 
-html{
-    height: 5000px;
-}
+
 
 body{
     background: rgb(28, 22, 22);
@@ -241,6 +239,8 @@ ul{
 
 
 
+
+
 .Venta .envio{
     color: cornflowerblue ;
     
@@ -274,7 +274,10 @@ form input{
 }
 
 
+.pago h2{
+    margin-top: 20px
 
+}
 
 .accesorios_nav{
    display: grid;
@@ -289,9 +292,10 @@ form input{
 
 
 .imagenes{
-    margin-bottom: 500px;
+    margin-bottom: 300px;
     width: 80%;
     margin: auto;
+    
     
 }
 
@@ -299,7 +303,7 @@ form input{
     display: grid;
     grid-template-columns: 50% 50%;
     margin-left: 550px;
-    margin-top: 100px;
+    margin-top: 20px;
     
 }
 
@@ -311,9 +315,19 @@ form input{
 
 }
 /*Casco*/
+.casco{
+   
+    transition: all ease-in-out 300ms;
 
+
+}
+
+.casco:hover{
+    transform: scale(1.2);
+}
  .casco h2 {
     margin-right:70px;
+    margin-top: 1px;
     font-size: 29px;
 }
 
@@ -345,11 +359,24 @@ form input{
 }
 
 .casco img{
-   margin-left: 30px;
+   margin-left: 20px;
+   margin-top: 1px;
+}
+.casco hr{
+    
+    margin-right: 200px;
+    margin-bottom: 20px;
 }
 
-/* Candado */
 
+/* Candado */
+.cadena{
+    transition: all ease-in-out 300ms;
+
+}
+.cadena:hover{
+    transform: scale(1.2);
+}
 
 .cadena h2{
     font-size: 29px;
@@ -383,13 +410,30 @@ form input{
     font-size: 15px;
     border: solid 1px white;
 
+
+
+}
+.cadena{
+    margin-top: 20px;
+}
+.cadena img{
+    margin-left: 20px;
+}
+
+.cadena hr{
+    margin-right: 200px;
 }
 
 
 /*luces*/
-
+.luces{
+    transition: all ease-in-out 300ms;
+}
+.luces:hover{
+    transform: scale(1.2);
+}
 .luces h2{
-    margin-left: 15px;
+    margin-left: 10px;
     font-size: 29px;
 }
 
@@ -411,7 +455,7 @@ form input{
 .luces .comprar{
     cursor: pointer;
     font-size: 20px;
-    margin: 15px;
+    margin: 20px;
     border: 0;
     font-weight: bold;
     padding: 10px 50px;
@@ -425,11 +469,25 @@ form input{
     margin-left: 25px;
 }
 
+.luces hr{
+    margin-right: 200px;
+    margin-bottom: 20px;
+   
+}
+
 /*Silla*/
+
+.silla-bebe{
+    transition: all ease-in-out 300ms;
+}
+
+.silla-bebe:hover{
+    transform: scale(1.2);
+}
 
 .silla-bebe h2{
     font-size: 29px;
-    margin-top: 20px;
+
     margin-left: 15px;
 
 }
@@ -458,9 +516,22 @@ form input{
     border: solid 1px white;
 
 }
+.silla-bebe img{
+    margin-left: 20px;
+    
+}
 
+.silla-bebe hr{
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
 /* timbre*/
-
+.timbre{
+    transition: all ease-in-out 300ms;
+}
+.timbre:hover{
+    transform: scale(1.2);
+}
 .timbre h2 {
     font-size: 29px;
     margin-top: 20px;
@@ -486,7 +557,7 @@ form input{
     cursor: pointer;
     font-size: 20px;
     margin: 15px;
-    margin-left: 50px;
+    margin-left: 40px;
     border: 0;
     font-weight: bold;
     padding: 10px 50px;
@@ -500,10 +571,22 @@ form input{
     margin-left: 50px;
 }
 
+.timbre hr{
+    margin-right: 150px;
+}
 /*velocimetro*/
+.velocimetro{
+    transition: all ease-in-out 300ms;
+}
+
+.velocimetro:hover{
+    transform: scale(1.2);
+}
+
+
 
 .velocimetro h2{
-    margin-left: 15px;
+    margin-left: 20px;
     font-size: 29px;
     margin-top: 20px;
 }
@@ -539,20 +622,32 @@ form input{
 }
 
 .velocimetro img{
-    margin-left: 20px;
+    margin-left: 30px;
+}
+
+.velocimetro hr{
+    margin-right: 200px;
 }
 
 /*luz */
+.luz{
+    transition: all ease-in-out 300ms;
+}
+
+.luz:hover{
+    transform: scale(1.2);
+}
+
 
 .luz h2{
-    margin-left: 25px;
+    margin-left: 30px;
     font-size: 29px;
     margin-top: 20px;
 
 }
 
 .luz .texto13{
-    margin-left: 55px;
+    margin-left: 60px;
     margin-top: 10px;
     font-size: 20px;
     margin-bottom: 20px;
@@ -579,11 +674,21 @@ form input{
 }
 
 .luz img{
-    margin-left: 20px;
+    margin-left: 30px;
+}
+
+.luz hr{
+    margin-right: 200px;
 }
 
 /*casco-mujer*/
+.casco-mujer{
+    transition: all ease-in-out 300ms;
+}
 
+.casco-mujer:hover{
+    transform: scale(1.2);
+}
 .casco-mujer h2{
     margin-left: 25px;
     font-size: 29px;
@@ -623,17 +728,26 @@ form input{
     margin-left: 50px;
 }
 
-/*espejo*/
+.casco-mujer hr{
+    margin-right: 150px;
+}
 
+/*espejo*/
+.espejo{
+    transition: all ease-in-out 300ms;
+}
+.espejo:hover{
+    transform: scale(1.1);
+}
 .espejo h2{
-    margin-left: 40px;
+    margin-left: 50px;
     font-size: 29px;
-    margin-top: 20px;
+   
 
 }
 
 .espejo .texto17{
-    margin-left: 50px;
+    margin-left: 65px;
     margin-top: 10px;
     font-size: 20px;
     margin-bottom: 20px;
@@ -661,12 +775,26 @@ form input{
 
 }
 
-/*soporte-celu*/
+.espejo hr{
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
 
+.espejo img{
+    margin-left: 20px;
+}
+/*soporte-celu*/
+.soporte-celu{
+    transition: all ease-in-out 300ms;
+}
+
+.soporte-celu:hover{
+    transform: scale(1.1);
+}
 .soporte-celu h2{
     margin-left: 40px;
     font-size: 29px;
-    margin-top: 20px;
+    
 
 }
 
@@ -703,8 +831,989 @@ form input{
     margin-left: 80px;
 }
 
+.soporte-celu hr{
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
 /* accesorios-footer*/
 
 .accesorios-footer{
     margin-top: 50px;
+}
+
+.grid_general{
+    display: grid;
+    grid-template-columns: 5% 90%;
+}
+
+/* repuestos */
+
+.imagenes-2{
+    margin-bottom: 300px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+.lista-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 550px
+    
+    
+}
+
+.lista-2 li img{
+    width: 100px;
+    padding-bottom: 100px;
+    padding-top: 120px;
+}
+
+.grid_general-2{
+    display: grid;
+    grid-template-columns: 5% 90%;
+    
+   
+
+}
+
+
+/*asiento*/
+
+.asiento h2{
+    margin-left: 20px;
+    font-size: 29px;
+}
+
+.asiento hr{
+margin-right: 250px;
+margin-bottom: 20px;
+}
+
+.asiento .precio-1{
+  margin-left: 35px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: cornflowerblue ;
+  font-size: 20px;
+}
+
+.asiento p{
+    margin-bottom: 20px;
+}
+
+.asiento .comprar{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 1px;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 50px;
+    background: rgb(67, 63, 63);
+    font-size: 15px;
+    border: solid 1px white;
+
+}
+
+.asiento{
+    transition: all ease-in-out 300ms;
+}
+
+.asiento:hover{
+    transform: scale(1.1);
+}
+
+/*cuadro*/
+
+.cuadro h2{
+    font-size: 29px;
+    margin-top: 20px;
+
+}
+
+.cuadro hr{
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-bottom: 29px;
+}
+
+.cuadro .precio-2{
+    margin-left: 50px;
+    font-size: 20px;
+    color: cornflowerblue ;
+}
+
+.cuadro p{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.cuadro .comprar{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 50px;
+    background: rgb(67, 63, 63);
+    font-size: 15px;
+    border: solid 1px white;
+
+}
+
+.cuadro img{
+    margin-left: 50px;
+}
+
+.cuadro{
+    transition: all ease-in-out 300ms;
+}
+   
+.cuadro:hover{
+    transform: scale(1.1);
+}
+
+/*cable*/
+
+.cable h2{
+    font-size: 29px;
+}
+
+.cable hr{
+    margin-right: 225px;
+    margin-bottom: 29px;
+}
+
+.cable .precio-3{
+    margin-left: 50px;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.cable p{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.cable .comprar{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 50px;
+    background: rgb(67, 63, 63);
+    font-size: 15px;
+    border: solid 1px white;
+
+}
+
+.cable img{
+    margin-left: 20px;
+}
+
+.cable{
+    transition: all ease-in-out 300ms;
+   
+}
+
+.cable:hover{
+    transform: scale(1.1);
+}
+
+/*manija*/
+
+.manija h2{
+    font-size: 29px;
+}
+
+.manija hr{
+    margin-right: 220px;
+    margin-bottom: 29px;
+}
+
+.manija .precio-4{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.manija p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.manija .comprar{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+   margin-left: 5px;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 50px;
+    background: rgb(67, 63, 63);
+    font-size: 15px;
+    border: solid 1px white;
+}
+
+.manija{
+    transition: all ease-in-out 300ms;
+    
+}
+
+.manija:hover{
+    transform: scale(1.1);
+}
+
+/*pedales*/
+.pedales h2{
+    font-size: 29px;
+    margin-left: 20px;
+}
+
+.pedales hr{
+    margin-right: 250px;
+    margin-bottom: 29px;
+}
+
+.pedales .precio-5{
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.pedales p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.pedales .comprar{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 50px;
+    background: rgb(67, 63, 63);
+    font-size: 15px;
+    border: solid 1px white;
+
+}
+
+.pedales{
+    transition: all ease-in-out 300ms;
+
+}
+
+.pedales:hover{
+    transform:scale(1.1)
+}
+
+/*puños*/
+
+.puños h2{
+    font-size: 29px;
+    margin-left: 50px;
+}
+
+.puños hr{
+    margin-right: 200px;
+    margin-bottom: 29px;
+}
+.puños .precio-6{
+    font-size: 20px;
+    margin-left: 55px;
+    margin-top: 20px;
+    color: cornflowerblue;
+}
+.puños p{
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+.puños .comprar{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+    border: 0;
+    margin-right: 200px;
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 10px 50px;
+    background: rgb(67, 63, 63);
+    font-size: 15px;
+    border: solid 1px white;
+
+    
+}
+
+
+
+.puños{
+    transition: all ease-in-out 300ms;
+    
+}
+
+
+.puños:hover{
+    transform: scale(1.1);
+}
+
+/*maza*/
+.maza h2{
+    font-size: 29px;
+
+}
+
+.maza hr{
+    margin-right: 180px;
+    margin-bottom: 29px;
+}
+
+.maza .precio-7{
+    font-size: 20px;
+    margin-left: 70px;
+    color: cornflowerblue;
+    margin-top: 20px;
+   
+}
+
+.maza p{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.maza .comprar{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+    border: 0;
+    margin-right: 200px;
+    margin-left: 30px;
+    font-weight: bold;
+    padding: 10px 50px;
+    background: rgb(67, 63, 63);
+    font-size: 15px;
+    border: solid 1px white;
+
+
+}
+
+.maza img{
+    margin-left: 50px;
+}
+
+.maza{
+    transition: all ease-in-out 300ms;
+
+}
+
+.maza:hover{
+    transform: scale(1.1);
+}
+
+
+/*cubierta*/
+
+.cubiertas h2{
+    font-size: 29px;
+}
+.cubiertas hr{
+    margin-right: 200px;
+    margin-bottom: 29px;
+}
+.cubiertas .precio-8{
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: cornflowerblue;
+
+
+}
+
+.cubiertas p{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.cubiertas .comprar{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+    border: 0;
+    margin-right: 200px;
+    margin-left: 25px;
+    font-weight: bold;
+    padding: 10px 50px;
+    background: rgb(67, 63, 63);
+    font-size: 15px;
+    border: solid 1px white;
+
+
+}
+.cubiertas img{
+    margin-left: 50px;
+}
+
+.cubiertas{
+    transition: all ease-in-out 300ms;
+
+}
+
+.cubiertas:hover{
+    transform: scale(1.1);
+}
+
+/*frenos*/
+.frenos h2{
+    font-size: 29px;
+    margin-left: 15px;
+
+}
+
+.frenos hr{
+    margin-right: 260px;
+    margin-bottom: 29px;
+}
+
+.frenos .precio-9{
+    margin-left: 32px;
+    font-size: 20px;
+    color: cornflowerblue;
+    margin-top: 10px;
+}
+
+.frenos p{
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.frenos .comprar{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+    border: 0;
+    margin-right: 200px;
+   
+    font-weight: bold;
+    padding: 10px 50px;
+    background: rgb(67, 63, 63);
+    font-size: 15px;
+    border: solid 1px white;
+
+
+
+}
+
+.frenos{
+    transition: all ease-in-out 300ms;
+
+}
+
+.frenos:hover{
+    transform: scale(1.1);
+}
+
+
+/*pedales*/
+
+.pedales-2 h2{
+    font-size: 29px;
+
+}
+.pedales-2 hr{
+    margin-right: 250px;
+    margin-bottom: 29px;
+}
+
+.pedales-2 .precio-10{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.pedales-2 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.pedales-2 .comprar{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+    border: 0;
+    margin-right: 200px;
+   
+    font-weight: bold;
+    padding: 10px 50px;
+    background: rgb(67, 63, 63);
+    font-size: 15px;
+    border: solid 1px white;
+
+}
+
+.pedales-2{
+    transition: all ease-in-out 300ms;
+
+}
+
+.pedales-2:hover{
+    transform: scale(1.1);
+}
+/*repuestos-footer */
+
+.repuestos-footer{
+    margin-top: 50px;
+}
+
+/* ¿Como realizar tu compra? */
+.Comprar_1 h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Comprar_1 img{
+    margin-left: 200px;
+    margin-top: 50px;
+    
+    
+}
+
+.Comprar_1 p{
+    margin-top: 50px;
+    margin-left: 20px;
+    white-space: pre-line;
+}
+
+
+
+/*Restauracion */
+.explicacion{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.foto img{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.informaciona {
+    margin-top: 200px;
+}
+.informaciona h2{
+    font-size: 50px;
+}
+.informaciona p{
+    margin-top: 20px;
+    white-space: pre-line;
+}
+
+.contactos h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: cornflowerblue;
+
+}
+
+.grid_final{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    font-size: 100px;
+}
+
+.grid_final{
+    margin-left: 650px;
+    margin-top: 200px;
+}
+
+.contactos hr{
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+
+/* Final*/
+
+.Bicicletas-footer{
+    margin-top: 100px ;
+}
+
+@media (max-width: 700px){
+    .nav-main{
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        padding: 35px 2px ;
+        
+        background-color: rgb(0, 0, 0);
+        
+    }
+     .logo_bici{
+         width: 20px;
+         margin-left: 2px;
+         border-radius: 50px;
+         
+     }
+     .lista-bicis li img {
+        width: 50px;
+        margin-top: 20px;
+     }
+
+     .lista-bicis{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height:100px ;
+        background-color: rgb(43, 42, 42);
+        width: 100%;
+        margin-right: 50px;
+        margin: 10px;
+     }
+
+     .bikee{
+        width: 100%;
+        height: 500px;
+        opacity: 80%;
+        margin-top: 20px;
+        background: url("../img/fondo-bici.jpg") ;
+       
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        font-size: 20px;
+        
+        
+       
+        
+    }
+
+
+    .bikee p{
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        
+    }
+    
+    .boton{
+        cursor: pointer;
+        font-size: 10px;
+        margin: 10px;
+        border: 0;
+        font-weight: bold;
+        padding: 10px 20px;
+        background: rgb(67, 63, 63);
+        font-size: 15px;
+        border: solid 1px white;
+        
+    }
+
+    .restauracion{
+        background: rgb(71, 64, 64);
+        display: grid;
+        grid-template-columns: 50% 50%;
+    
+    }
+    
+    .restauracion h2 {
+        padding: 50px 10px 10px;
+        font-size: 20px;
+        white-space: pre-line;
+        
+        
+    }
+    
+    .informacion p{
+        margin-left: 10px;
+        white-space: pre-line;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .restauracion img{
+        width: 180px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .final{
+        display: grid;
+        grid-template-columns: 50% 50% 50%;
+        width: 100%;
+        background: black ;
+        height: 170px;
+        
+    }
+    
+    .redes {
+        font-size: 10px ;
+        margin-left: 10px;
+        margin-top: 20px;
+        
+    }
+    .linkss{
+        display: flex;
+        margin-top: 20px;
+        justify-content: left;
+        align-items: center;
+        
+    
+    }
+    
+    .linkss a{
+        margin: 0 10px;
+       
+    }
+    
+    .legal{
+         font-size: 10px;
+        
+         margin-left: 20px;
+         margin-bottom: 20px;
+       
+       
+        
+    }
+    
+    .legal h2{
+        margin-top: 10px;
+    }
+  
+    .accesorios_nav{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        background: cornflowerblue;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-bottom: 20px;
+        font-size: 10px;
+     
+     }
+     
+     .Venta{
+      font-size: 10px;
+      margin-left: 5px;
+
+
+
+        
+        
+    }
+    
+    .listas li hr{
+        opacity: 1%;
+    }
+    .listas{
+        grid-template-columns: 50%;
+        font-size: 10px;
+        margin-left: 10px;
+        margin-top: 300px;
+        
+        
+        
+    }
+
+    .listas li img{
+        width: 70px;
+    }
+
+    .listas p{
+        font-size: 10px;
+        margin-right: 100px;
+        
+        
+        
+        
+        
+       
+    }
+    
+    .listas h2{
+       
+        font-size: 15px;
+        margin-left: 30px;
+        
+    }
+
+    .casco h2{
+        margin-left: 50px;
+    }
+
+    .luces h2{
+        margin-left: 40px;
+    }
+
+    .silla-bebe h2{
+        margin-left: 40px;
+    }
+
+    .timbre h2{
+       margin-left: 70px;
+       
+    }
+
+    .velocimetro h2{
+        margin-left: 45px;
+    }
+
+    .luz h2{
+        margin-left: 50px;
+    }
+  
+    .casco-mujer h2 {
+        margin-left: 50px;
+    }
+     
+    .espejo h2{
+        margin-left: 65px;
+    }
+
+    .listas .comprar{
+        
+        font-size: 10px;
+        
+    }
+
+   .lista-2{
+    margin-left: 2px;
+    display: grid;
+    grid-template-columns: 50%;
+    margin-top: 400px;
+   }
+
+   .lista-2 h2{
+    font-size: 20px;
+   }
+
+   .asiento{
+    margin-left: 20px;
+   }
+
+   .asiento h2{
+    margin-left: 30px;
+
+   }
+
+   .cuadro h2{
+    margin-left: 20px;
+   }
+   
+   .cable{
+    margin-left: 20px;
+   }
+
+   .cable h2{
+    margin-left: 20px;
+   }
+
+   .manija{
+    margin-left: 20px;
+   }
+
+   .pedales{
+    margin-left: 20px;
+   }
+
+   .maza h2{
+    margin-left: 50px;
+   }
+
+   .cubiertas h2{
+    margin-left: 50px;
+   }
+
+   .frenos{
+    margin-left: 35px;
+   }
+
+   .frenos h2{
+    margin-left: 30px;
+   }
+
+   .pedales-2{
+    margin-left: 29px;
+   }
+
+   .pedales-2 h2{
+    margin-left: 20px;
+   }
+
+   .puños img{
+    margin-left: 20px;
+   }
+    
+   .venta-bici li  {
+    margin-left: 2px;
+    
+   
+  
+}
+
+.Comprar_1 h2{
+    font-size: 20px;
+
+}
+
+.Comprar_1 img{
+    width: 350px;
+    margin-left: 15px;
+}
+
+.Comprar_1 p{
+    font-size: 15px;
+}
+
+.explicacion .foto img{
+    width: 150px;
+    margin-left: 2px;
+}
+
+.explicacion .informaciona{
+    margin-top: 100px;
+}
+
+.explicacion .informaciona h2{
+    font-size: 20px;
+    margin-top: 5px;
+   
+}
+.explicacion .informaciona p{
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+.contactos h2{
+    font-size: 20px;
+}
+
+.grid_final{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.Bicicletas-footer{
+  margin-top: 150px;
+}
+
 }
